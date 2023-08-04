@@ -1,0 +1,70 @@
+# .NET Core / Visual Studio / Rider
+*.obj
+*.dll
+*.exe
+*.pdb
+*.user
+*.suo
+*.cache
+*.vscode
+*.vs
+*.nupkg
+*.log
+*.bin/
+*.obj/
+*.sln.docstates
+project.lock.json
+artifacts/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+TestResults/
+_nupkg/
+*.nuget.props
+*.nuget.targets
+!packages.config
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.pdb
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.assets.json
+project.nuget.cache
+project.nuget.dgspec.json
+project.nuget.g.props
+project.nuget.g.targets
+*.nuget.props
+*.nuget.targets
+**/*.nuget.props
+**/*.nuget.targets
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
